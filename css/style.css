@@ -221,6 +221,12 @@ section{
 .payment .box-container .box img{
    height: 20rem;
    margin:1rem 0;
+   box-shadow: var(--box-shadow);
+   background-color: var(--white);
+   padding:1rem;
+   border-radius: 10rem;
+   text-align: center;
+   box-shadow: var(--box-shadow);
 }
 
 .payment .box-container .box h3{
