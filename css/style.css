@@ -112,11 +112,6 @@ section{
    display: none;
 }
 
-.home{
-   background:url(../images/antc.png) no-repeat;
-   background-size: cover;
-   background-position: center;
-}
 
 .home .content{
    width: 55rem;
@@ -198,91 +193,91 @@ section{
    line-height: 2;
 }
 
-.process .box-container{
+.payment .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap:2rem;
 }
 
-.process .box-container .box{
+.payment .box-container .box{
    background-color: palevioletred;
    padding:2rem;
    border-radius: 2rem;
    text-align: center;
    box-shadow: var(--box-shadow);
 }
-.process .box-container .box .link-btn{
+.payment .box-container .box .link-btn{
    background-color: var(--red);
    padding:1rem;
    border-radius: 1rem;
    text-align: center;
    box-shadow: var(--box-shadow);
 }
-.process .box-container .box .link-btn:hover{
+.payment .box-container .box .link-btn:hover{
    background-color: var(--black);
    color:var(--white);
 }
 
-.process .box-container .box img{
+.payment .box-container .box img{
    height: 20rem;
    margin:1rem 0;
 }
 
-.process .box-container .box h3{
+.payment .box-container .box h3{
    font-size: 2rem;
    color: white;
    margin:1.5rem 0;
 }
-.process .box-container .box h3:hover{
+.payment .box-container .box h3:hover{
    font-size: 2rem;
    color: var(--blue);
    margin:1.5rem 0;
 }
 
-.process .box-container .box p{
+.payment .box-container .box p{
    font-size: 1.5rem;
    color: white;
    line-height: 2;
 }
-.processs .box-container{
+.payment .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap:2rem;
 }
 
-.processs .box-container .box{
-   background-color: lightpink;
+.payment .box-container .box{
+   background-color: lavender;
    padding:2rem;
    border-radius: 2rem;
    text-align: center;
    box-shadow: var(--box-shadow);
 }
-.processs .box-container .box .link-btn{
-   background-color: var(--red);
+.payment .box-container .box .link-btn{
+   background-color: var(--white);
    padding:1rem;
    border-radius: 1rem;
    text-align: center;
    box-shadow: var(--box-shadow);
 }
-.processs .box-container .box .link-btn:hover{
-   background-color: var(--black);
+.payment .box-container .box .link-btn:hover{
+   background-color: var(--red);
    color:var(--white);
 }
 
-.processs .box-container .box img{
+.payment .box-container .box img{
    height: 20rem;
    margin:1rem 0;
 }
 
-.processs .box-container .box h3{
+.payment .box-container .box h3{
    font-size: 2rem;
-   color: midnightblue;
+   color: blue;
    margin:1.5rem 0;
 }
 
-.processs .box-container .box p{
-   font-size: 1.5rem;
-   color: darkgreen;
+.payment .box-container .box p{
+   font-size: 30px;
+   color: green;
    line-height: 2;
 }
 .reviews{
@@ -400,7 +395,7 @@ section{
    border-radius: 50%;
    line-height: 5rem;
    font-size: 2rem;
-   background-color: mediumvioletred;
+   background-color: rgb(36, 204, 117);
    color:var(--white);
 }
 

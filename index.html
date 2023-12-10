@@ -7,8 +7,8 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>ANTC Hospital | Panipat</title>
-   <meta name="description" content="Freelancer -  Advance Neuro-Spine & Trauma Centre in Model Town, Panipat is one of the most renowned Private Hospitals in the area">
+   <title>Freelancer | Rahul</title>
+   <meta name="description" content="Freelancer -  Rahul" >
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
@@ -20,47 +20,44 @@
 
 </head>
 <body>
-   
-<!-- header section starts  -->
+<section class="payment" id ="services">
 
-
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
-
-
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-
-<!-- about section ends -->
-
-<section class="processs" id ="services">
-
-   <h1 class="heading">No Need to remember Payments</h1>
+   <h1 class="heading">Payments made easy</h1>
 
    <div class="box-container container">
 
       <div class="box">
-         <img src="images/voice.png" alt="">
-         <p>Instagram Shorts With Custom Captions</p>
-         <h3>$99/Two Weeks</h3>
-         <a href="" class="link-btn"><b>Subscribe Now</b></a>
+         <img src="images/brady.png" alt="">
+         <p>Brady Shorts Package</p>
+         <h3>$149 for Two Weeks</h3>
+         <a href="" class="link-btn"><b><div id="paypal-button-container-P-68E36565BM4090032MVZPMQI"></div>
+            <script src="https://www.paypal.com/sdk/js?client-id=AbpZDyZ9QcpFym667XVcx0zmm4zOrdLVIRnXh2-UAYcKJqeEVIdFumvZaLY7ROUqQwcYDdkncpERkK8R&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+            <script>
+              paypal.Buttons({
+                  style: {
+                      shape: 'rect',
+                      color: 'gold',
+                      layout: 'vertical',
+                      label: 'subscribe'
+                  },
+                  createSubscription: function(data, actions) {
+                    return actions.subscription.create({
+                      /* Creates the subscription */
+                      plan_id: 'P-68E36565BM4090032MVZPMQI'
+                    });
+                  },
+                  onApprove: function(data, actions) {
+                    alert(data.subscriptionID); // You can add optional success message for the subscriber here
+                  }
+              }).render('#paypal-button-container-P-68E36565BM4090032MVZPMQI'); // Renders the PayPal button
+            </script></b></a>
+            <h3><a href="https://instagram.com/boostedbrady?igshid=OGQ5ZDc2ODk2ZA==">Click to view Samples</a></h3>
+         
       </div>
 
    </div>
 
 </section>
-
-
-<!-- reviews section starts  -->
-
-       
-
-<!-- reviews section ends -->
-
 
 <!-- footer section starts  -->
 
@@ -94,6 +91,9 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+<div style="width:60px;height:60px;position: fixed;right: 30px;bottom: 30px;">
+   <a href="https://wa.me/919992165050?text=Hey%20Rahul%20I%20wanna%20talk!"><img src="images/whatsapp.png" style="width:60px;height:60px;"/>
+  </div>
 
 </body>
 </html>
